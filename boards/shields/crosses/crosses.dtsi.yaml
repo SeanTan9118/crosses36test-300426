@@ -1,9 +1,0 @@
-/ {
-    kscan0: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-
-        row-gpios = <&gpio0 2 0>, <&gpio0 3 0>;
-        col-gpios = <&gpio0 4 0>, <&gpio0 5 0>;
-    };
-};
